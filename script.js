@@ -24,7 +24,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
     // When the guess is correct
   } else if (guess === secretNumber) {
-    displayMessage('👌 You guessed right.');
+    displayMessage('👌 You guessed right!');
     document.querySelector('.number').textContent = secretNumber;
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.number').style.width = '30rem';
